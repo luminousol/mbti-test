@@ -20,25 +20,25 @@ var question = {
 
 // MBTI 결과별 이미지 저장하는 js 객체 result
 var result = {
-    "ISTJ" : {"img":"/img/istj.png"},
-    "ISFJ" : {"img":"/img/isfj.png"},
-    "INTJ" : {"img":"/img/intj.png"},
-    "INFJ" : {"img":"/img/infj.png"},
+    "ISTJ" : {"img":"./img/istj.png"},
+    "ISFJ" : {"img":"./img/isfj.png"},
+    "INTJ" : {"img":"./img/intj.png"},
+    "INFJ" : {"img":"./img/infj.png"},
 
-    "ISTP" : {"img":"/img/istp.png"},
-    "ISFP" : {"img":"/img/isfp.png"},
-    "INTP" : {"img":"/img/intp.png"},
-    "INFP" : {"img":"/img/infp.png"},
+    "ISTP" : {"img":"./img/istp.png"},
+    "ISFP" : {"img":"./img/isfp.png"},
+    "INTP" : {"img":"./img/intp.png"},
+    "INFP" : {"img":"./img/infp.png"},
     
-    "ESTJ" : {"img":"/img/estj.png"},
-    "ESFJ" : {"img":"/img/esfj.png"},
-    "ENTJ" : {"img":"/img/entj.png"},
-    "ENFJ" : {"img":"/img/enfj.png"},
+    "ESTJ" : {"img":"./img/estj.png"},
+    "ESFJ" : {"img":"./img/esfj.png"},
+    "ENTJ" : {"img":"./img/entj.png"},
+    "ENFJ" : {"img":"./img/enfj.png"},
 
-    "ESTP" : {"img":"/img/estp.png"},
-    "ESFP" : {"img":"/img/esfp.png"},
-    "ENTP" : {"img":"/img/entp.png"},
-    "ENFP" : {"img":"/img/enfp.png"}
+    "ESTP" : {"img":"./img/estp.png"},
+    "ESFP" : {"img":"./img/esfp.png"},
+    "ENTP" : {"img":"./img/entp.png"},
+    "ENFP" : {"img":"./img/enfp.png"}
 }
 
 function start() {
