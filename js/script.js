@@ -77,10 +77,10 @@ function showResult() {
     document.querySelector('.result').style.display = 'block';
 
     var mbti = '';
-    mbti += (parseInt(document.getElementById('IE').value) > 2) ? 'I' : 'E';
-    mbti += (parseInt(document.getElementById('SN').value) > 2) ? 'S' : 'N';
-    mbti += (parseInt(document.getElementById('TF').value) > 2) ? 'T' : 'F';
-    mbti += (parseInt(document.getElementById('JP').value) > 2) ? 'J' : 'P';
+    mbti += (parseInt(document.getElementById('IE').value) < 2) ? 'E' : 'I';
+    mbti += (parseInt(document.getElementById('SN').value) < 2) ? 'N' : 'S';
+    mbti += (parseInt(document.getElementById('TF').value) < 2) ? 'F' : 'T';
+    mbti += (parseInt(document.getElementById('JP').value) < 2) ? 'P' : 'J';
 
     document.getElementById("img").src = result[mbti]["img"];
 }
